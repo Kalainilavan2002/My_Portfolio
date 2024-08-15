@@ -1,0 +1,26 @@
+.contact {
+    padding: 50px 20px;
+    background-color: #000000;
+    color: #f1f9ff;
+  }
+  
+  .contact p {
+    font-size: 1.2em;
+  }
+  
+  .contact a {
+    color: #a5d1f3;
+    text-decoration: none;
+  }
+  
+  /* Responsive */
+  @media (max-width: 600px) {
+    .contact {
+      padding: 30px 10px;
+    }
+  
+    .contact p {
+      font-size: 1em;
+    }
+  }
+  

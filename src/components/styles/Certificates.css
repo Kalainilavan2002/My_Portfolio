@@ -1,0 +1,92 @@
+.certificates {
+  padding: 50px 20px;
+  text-align: center;
+  min-height: 80vh;
+  background-color: #F4EAE0;
+}
+
+.certificates h2 {
+  font-size: 2em;
+}
+
+.mytalant p {
+  margin-top: 30px;
+  font-size: 1em;
+}
+
+.services-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap; /* Ensure proper wrapping on smaller screens */
+}
+
+.service-box {
+  width: 45%; /* Adjust width as needed */
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-align: center; /* Center align text */
+  position: relative; /* Position relative for image positioning */
+}
+
+.service-box:hover {
+  transform: scale(1.06);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.service-image {
+  width: 50px; /* Adjust image size as needed */
+  height: 50px; /* Maintain aspect ratio */
+  border-radius: 50%; /* Make image circular */
+  position: absolute;
+  top: -25px; /* Position image at the top center */
+  left: 50%;
+  transform: translateX(-50%);
+  transition: transform 0.3s;
+}
+
+.service-box:hover .service-image {
+  transform: translateX(-50%) scale(1.2); /* Scale up on hover */
+}
+
+.service-box h2 {
+  font-size: 1.5em;
+  margin-top: 35px; /* Adjust margin to accommodate image */
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.service-box ul {
+  list-style:circle;
+  margin-left: 10px;
+  padding: 0;
+  text-align: left; /* Align list items to the left */
+}
+
+.service-box li {
+  font-size: 1.2em;
+  margin: 8px 0;
+  color: #555;
+  transition: transform 0.3s, box-shadow 0.3s; /* Add transition for hover effects */
+}
+
+.service-box li:hover {
+  transform: scale(1.05); /* Scale up on hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .services-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service-box {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+}

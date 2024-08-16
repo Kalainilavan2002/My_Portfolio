@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/My_Portfolio/static/css/main.bd27d72d.css",
-    "main.js": "/My_Portfolio/static/js/main.0513807b.js",
+    "main.css": "/My_Portfolio/static/css/main.c3fe9f23.css",
+    "main.js": "/My_Portfolio/static/js/main.824e81b4.js",
     "static/media/realracer.mp4": "/My_Portfolio/static/media/realracer.9dfdf50fd8c70cedd6c6.mp4",
     "static/media/dragonrun.mp4": "/My_Portfolio/static/media/dragonrun.abfb647cbd8181c915b5.mp4",
     "static/media/zombie.mp4": "/My_Portfolio/static/media/zombie.26d006801c3e90a1db87.mp4",
     "static/media/tilerun.mp4": "/My_Portfolio/static/media/tilerun.51ce37d9a74edb8cc5fc.mp4",
     "static/media/daniel-korpai-pKRNxEguRgM-unsplash.jpg": "/My_Portfolio/static/media/daniel-korpai-pKRNxEguRgM-unsplash.db2527729278a857524c.jpg",
+    "static/media/resume.pdf": "/My_Portfolio/static/media/resume.c970783281a3bb009522.pdf",
     "static/media/Screenshot (33).png": "/My_Portfolio/static/media/Screenshot (33).1c68adfc61810fea3a4f.png",
     "static/media/glenn-carstens-peters-0woyPEJQ7jc-unsplash.jpg": "/My_Portfolio/static/media/glenn-carstens-peters-0woyPEJQ7jc-unsplash.0e4ce093ee0dddbaf1cf.jpg",
-    "static/media/resume1.pdf": "/My_Portfolio/static/media/resume1.ebc4101f6c704a0ab6d0.pdf",
     "static/media/Screenshot (37) - Copy.png": "/My_Portfolio/static/media/Screenshot (37) - Copy.1f15c924c54fc22278c9.png",
     "static/media/Screenshot (34).png": "/My_Portfolio/static/media/Screenshot (34).333c26c55460c7263db6.png",
     "static/media/Screenshot (38).png": "/My_Portfolio/static/media/Screenshot (38).f8f9ae0ba02d22fbb81d.png",
@@ -20,11 +20,11 @@
     "static/media/slick.ttf": "/My_Portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/My_Portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/My_Portfolio/index.html",
-    "main.bd27d72d.css.map": "/My_Portfolio/static/css/main.bd27d72d.css.map",
-    "main.0513807b.js.map": "/My_Portfolio/static/js/main.0513807b.js.map"
+    "main.c3fe9f23.css.map": "/My_Portfolio/static/css/main.c3fe9f23.css.map",
+    "main.824e81b4.js.map": "/My_Portfolio/static/js/main.824e81b4.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd27d72d.css",
-    "static/js/main.0513807b.js"
+    "static/css/main.c3fe9f23.css",
+    "static/js/main.824e81b4.js"
   ]
 }

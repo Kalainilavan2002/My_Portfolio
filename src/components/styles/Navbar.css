@@ -35,6 +35,7 @@
   justify-content: flex-end; /* Align navigation links to the right */
   align-items: center;
   width: 100%;
+  cursor: pointer;
 }
 
 .navbar li {

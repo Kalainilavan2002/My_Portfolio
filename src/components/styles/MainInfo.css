@@ -1,141 +1,147 @@
 .main-info {
-    padding: 50px 20px;
-    background-color: #fff;
-    background-image: url('https://img.freepik.com/free-photo/high-angle-desktop-with-laptop-copy-space_23-2148430882.jpg?w=900&t=st=1718287206~exp=1718287806~hmac=9f328a7daba34d9edd362c4fb157c0fbbab6d8d4de78ec3f2537213df811b65e'); /* Replace with the path to your background image */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    height: 90vh;
-  }
+  position:relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Prevent any scrolling */
+  background: transparent; /* Ensure no background color blocks video */
+ 
+}
+.content {
+  position: relative;
+  z-index: 1;
+  display: flex;  
+  flex-direction: row; 
+  align-items: center;
+  text-align: left; 
+  color: #fff;
+  gap: 50px; 
+}
+
+
+/* Background Video */
+/* Background Video */
+.content video {
+  position: absolute;  /* Change absolute to fixed */
+  /* Optional: Adjust brightness for better readability */
+
+object-fit: cover; 
+z-index: -1;
+
+}
+.items{
+  z-index: 1;
+  position: relative;
+  z-index: 1;
+  display: flex;  /* Change to flex to align items in row */
+  flex-direction: row; /* Ensure items align left to right */
+  align-items: center;
+  text-align: left; /* Align text to left */
+  width: 90%; /* Reduce width for better spacing */
   
+}
+
+/* Content Layer */
+
+
+/* Profile Photo (Left Side) */
+.profile-photo {
+  height: 90vh; /* Adjust height */
+  width: auto;
+  border-radius: 10px;
+  margin-left: 10%; /* Align to left */
+}
+
+/* Details (Right Side) */
+.details {
+  width: 100%; /* Reduce width for better spacing */
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.507);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center; /* Align text to left */
+  transition: transform 0.3s, box-shadow 0.3s;
+  
+}
+
+/* Hover Effect */
+.details:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+}
+.details h1{
+  color:#fff ;
+}
+.details h2{
+  color: #B3D8A8;
+}
+.details h3{
+  color: #fff;
+}
+.details p{
+  color: #fff;
+}
+/* Headings and Paragraphs */
+
+
+/* CV Button */
+.cv {
+  color: #fff;
+  background-color: #5e5d5d;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s, background-color 0.3s;
+  margin-top: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.cv:hover {
+  transform: scale(1.1);
+  background-color: #333;
+  color: #B3D8A8;
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+  .content {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    height: 100vh; /* Ensure full screen height */
+    overflow: hidden; /* Prevent scrolling */
+  }
+
+  .items {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    height: 100vh; /* Ensure it covers full screen */
+    overflow: hidden;
+  }
+
   .profile-photo {
-    height: 500px;
-    width: auto;
-   /* border00px-radius: 50%;*/
-    margin-bottom: 20px;
-    margin-left: 15%;
-    
-    border-bottom: 30px solid #000000c0;/*
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
-    transition: box-shadow 0.3s;
+    height: 200px;
+    margin-bottom: 0; /* Remove bottom margin */
   }
-  
-  .profile-photo:hover {
-    box-shadow: 0 0 20px rgba(255, 255, 255, 1);
-  }*/}
-  
+
   .details {
-    width: 60%;
-    background-color: rgba(10, 10, 10, 0.301);
-    padding: 20px;
-    border-radius: 10px;
+    width: 90%;
+     
     text-align: center;
-    transition: transform 0.3s, box-shadow 0.3s;
+    margin-bottom: 0; /* Ensure no extra spacing */
   }
-  
-  .details:hover {
-    transform: scale(1.05); /* Scale up to 105% on hover */
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8); /* Larger shadow on hover */
-  }
-  .main-info h2{
-    margin-top: 2px;
-    color: #fff;
-  }
-  
-  .main-info h1 {
-    font-size: 3em;
-    margin-bottom: 1vh;
-    color: #fff;
-  }
-  
-  .main-info h3 {
-    color: #fff;
-    font-size: 2em;
-  }
-  
-  .main-info p {
-    font-size: 0.9em;
-    color: #fff;
-    text-align: justify;
-  }
-  
-  /* Responsive */
-  @media (min-width: 601px) {
-    .main-info {
-      flex-direction: row;
-      align-items: center;
-      text-align: left;
-      
 
-    }
-  
-    .profile-photo {
-      margin-bottom: 0;
-      margin-right: 20px;
-    }
-  
-    .details {
-      margin-right: 20px;
-      text-align: left;
-    }
+  .main-info {
+    height: 100vh; /* Force section to cover full screen */
+    overflow: hidden;
   }
   
-  @media (max-width: 600px) {
-    .main-info {
-      padding: 30px 10px;
-      align-items: center;
-      height: 105vh;
-    }
-  
-    .main-info h1 {
-      font-size: 1.5em;
-    }
-  
-    .main-info p {
-      font-size: 1em;
-    }
-    .profile-photo {
-      height: 300px;
-      width: auto;
-      margin-bottom: 0;
-      margin-right: 15%;
-      margin-left: 15%;
-    }
-    .details{
-      margin-top: 15px;
-    }
+}
 
-  }
-  .cv {
-    color: #fff;
-    background-color: #5e5d5d; /* Black background */
-    border: none;
-    padding: 10px 20px;
-    font-size: 1em;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: transform 0.3s, background-color 0.3s;
-    margin-top: 20px;
-  }
-  
-  .cv:hover {
-    transform: scale(1.1); /* Increase size on hover */
-    background-color: #333; /* Darker background on hover */
-  }
-  
-  .details {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  @media (min-width: 601px) {
-    .cv {
-      margin: 0 auto; /* Center the button */
-    }
-  }
-   

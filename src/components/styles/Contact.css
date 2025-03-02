@@ -1,7 +1,11 @@
 .contact {
     padding: 50px 20px;
-    background-color: #000000;
-    color: #f1f9ff;
+    background-color: #3D8D7A;
+    color: #080808;
+    text-align: center;
+  }
+  .contact h2{
+    color: black;
   }
   
   .contact p {
@@ -9,7 +13,7 @@
   }
   
   .contact a {
-    color: #a5d1f3;
+    color: #d3d9df;
     text-decoration: none;
   }
   

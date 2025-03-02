@@ -16,6 +16,7 @@ function Certificates() {
             <li>Game Design and Prototyping</li>
             <li>Graphics and Animation</li>
             <li>Virtual Reality (VR) Games</li>
+            <li>Agmented Reality (AR) Games</li>
           </ul>
         </div>
         <div className="service-box full-stack-development">
@@ -23,7 +24,7 @@ function Certificates() {
           <h2>Full Stack Development Services</h2>
           <ul>
             <li>Web Application Development</li>
-            <li>Backend Development</li>
+            
             <li>Frontend Development</li>
             
           </ul>

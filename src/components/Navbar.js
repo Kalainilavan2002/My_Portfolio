@@ -43,7 +43,7 @@ function Navbar() {
             duration={500}
             onClick={() => setIsNavOpen(false)}
           >
-            About
+            Home
           </Link>
         </li>
         <li>

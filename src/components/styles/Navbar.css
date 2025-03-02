@@ -51,7 +51,7 @@
   font-weight: bold;
   padding: 10px;
   position: relative;
-  transition: color 0.3s;
+  transition: color 0.3s ease-in-out;
 }
 
 .navbar a::after {
@@ -65,11 +65,14 @@
   transform: scaleX(0);
   transform-origin: bottom right;
   transition: transform 0.3s ease-out;
+  
 }
-
 .navbar a:hover {
-  color: #30eef8;
+  color: #B3D8A8;
   text-shadow: 0 0 10px #56f7ff;
+  font-size: 16.5px;
+  transition: transform 0.3s;
+
 }
 
 .navbar a:hover::after {

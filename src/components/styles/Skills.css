@@ -1,6 +1,6 @@
 .skills {
   padding: 50px 20px;
-  background-color:#F4DFC8 ;
+  background-color:#B3D8A8;
   text-align: center;
   min-height: 80vh; /* Use min-height instead of height for responsiveness */
   background-size: cover;
@@ -13,6 +13,7 @@
 .mytalant p{
   font-size: 1em;
   font-style: bold;
+  color: black;
 }
 .skills-list {
   display: flex;
@@ -45,7 +46,7 @@
 
 .loading-frame {
   height: 20px;
-  background-color: #3498db; /* Change color as desired */
+  background-color: #3D8D7A; /* Change color as desired */
   border-radius: 5px;
   position: relative;
   overflow: hidden;

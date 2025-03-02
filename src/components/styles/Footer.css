@@ -8,3 +8,11 @@
     width: 100%;
   }
   
+.footer p{
+color: #fff;
+}
+.footer p:hover{
+  color:#B3D8A8 ;
+  
+
+}

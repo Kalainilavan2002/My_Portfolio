@@ -2,11 +2,12 @@
   padding: 50px 20px;
   text-align: center;
   min-height: 80vh;
-  background-color: #F4EAE0;
+  background-color: #FBFFE4;
 }
 
 .certificates h2 {
   font-size: 2em;
+  color: black;
 }
 
 .mytalant p {
@@ -24,7 +25,7 @@
 .service-box {
   width: 45%; /* Adjust width as needed */
   padding: 20px;
-  background-color: #fff;
+  background-color: #B3D8A8;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   transition: transform 0.3s, box-shadow 0.3s;

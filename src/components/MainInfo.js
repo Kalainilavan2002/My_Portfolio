@@ -2,7 +2,7 @@ import React from 'react';
 import './styles/MainInfo.css';
 import img1 from './Assests/p2.png';
 import vdeo from './Assests/v2.mp4';
-import resume from './Assests/resume1.pdf';
+import resume from './Assests/resume2.pdf';
 
 function MainInfo() {
   return (
